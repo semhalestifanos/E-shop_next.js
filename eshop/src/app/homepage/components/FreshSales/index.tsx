@@ -1,5 +1,4 @@
 import CropPortraitIcon from '@mui/icons-material/CropPortrait';
-// import { TagsIcon } from "../TagsIconProps/index";
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import StarIcon from '@mui/icons-material/Star';
@@ -64,7 +63,7 @@ function StarRow({ rating }: { rating: number }) {
 export default function FreshSales() {
   return (
     <div className="w-full px-4 md:px-12 lg:px-24 pt-10">
-      {/* <TagsIcon icon={CropPortraitIcon} text='Todays'/>  */}
+     
 
       <div className="mb-6">
         <h1 className="text-2xl font-bold mb-4">Fresh Sales</h1>

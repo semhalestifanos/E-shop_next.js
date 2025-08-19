@@ -5,7 +5,6 @@ import PhotoCameraIcon from '@mui/icons-material/PhotoCamera';
 import HeadphonesIcon from '@mui/icons-material/Headphones';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 import CropPortraitIcon from '@mui/icons-material/CropPortrait';
-// import { TagsIcon } from "../TagsIconProps/index";
 
 const categories = [
   { icon: <PhoneIphoneIcon fontSize="large" />, label: "Phones" },
@@ -20,7 +19,7 @@ export default function BrowseByCategory() {
   return (
     <div className="w-full px-4 md:px-12 lg:px-24 py-10">
       <div className="mb-2">
-        {/* <TagsIcon icon={CropPortraitIcon} text="Categories"/> */}
+       
       </div>
       <h1 className="text-2xl font-bold mb-8 text-left">Browse by category</h1>
   

@@ -16,15 +16,18 @@ export default function AdsBanner() {
   return (
     <div className="flex w-full py-4 bg-white px-4 md:px-12 lg:px-24">
       <aside className="hidden md:flex flex-col border-r border-gray-200 w-64 pr-4 pl-4">
-        {categories.map((cat, idx) => (
-          <div
-            key={cat}
-            className="flex items-center justify-between py-2 px-2 cursor-pointer hover:bg-gray-50 transition rounded"
-          >
-            <span className="text-gray-800 text-base">{cat}</span>
-            <ArrowForwardIos className="text-gray-400" style={{ fontSize: 16 }} />
-          </div>
-        ))}
+    {categories.map((cat, idx) => (
+  <div
+    key={cat}
+    className="flex items-center justify-between py-2 px-2 cursor-pointer hover:bg-gray-50 transition rounded"
+  >
+    <span className="text-gray-800 text-base">{cat}</span>
+    {idx < 2 && (
+      <ArrowForwardIos className="text-gray-400" style={{ fontSize: 16 }} />
+    )}
+  </div>
+))}
+
       </aside>
 
       <div className="flex-1 flex flex-col items-center justify-center">

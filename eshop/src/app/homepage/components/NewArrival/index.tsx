@@ -1,4 +1,4 @@
-// import { TagsIcon } from "../TagsIconProps/index";
+
 import CropPortraitOutlinedIcon from '@mui/icons-material/CropPortraitOutlined';
 import FireTruckIcon from '@mui/icons-material/FireTruck';
 import HeadsetMicIcon from '@mui/icons-material/HeadsetMic';
@@ -7,7 +7,7 @@ import BeenhereIcon from '@mui/icons-material/Beenhere';
 export default function NewArrivals() {
   return (
     <div className="w-full px-16 py-10">
-      {/* <TagsIcon icon={CropPortraitOutlinedIcon} text="Featured" /> */}
+      
       <h1 className="font-bold text-2xl mt-4 mb-8 text-primary">New Arrival</h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="relative rounded-xl overflow-hidden bg-black h-72 md:h-96 lg:h-[600px]">

@@ -2,7 +2,7 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import VisibilityOutlinedIcon from '@mui/icons-material/VisibilityOutlined';
 import StarIcon from '@mui/icons-material/Star';
 import Button from '@mui/material/Button';
-// import { TagsIcon } from "../TagsIconProps/index";
+
 import CropPortraitIcon from '@mui/icons-material/CropPortrait';
 
 const products = [
@@ -106,7 +106,7 @@ export default function ExploreProducts() {
   return (
 
     <div className="w-full px-4 md:px-12 lg:px-24 py-10">
-        {/* <TagsIcon icon={CropPortraitIcon} text="Our Products" className="mb-2.5 pb-6"/> */}
+        
         <h1 className="text-2xl font-bold">Explore our products</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 pt-2">
         {products.map((product, idx) => (
